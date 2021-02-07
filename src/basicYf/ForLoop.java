@@ -1,4 +1,4 @@
-package BasicYf;
+package basicYf;
 
 public class ForLoop {
     public static void main(String[] args) {

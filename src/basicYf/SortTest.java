@@ -1,4 +1,4 @@
-package BasicYf;
+package basicYf;
 
 import java.util.Arrays;
 

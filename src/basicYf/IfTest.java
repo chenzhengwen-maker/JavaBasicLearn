@@ -1,4 +1,4 @@
-package BasicYf;
+package basicYf;
 
 public class IfTest {
     public static void main(String[] args) {
