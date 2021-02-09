@@ -7,7 +7,9 @@ public class SingletonLazy {
     private static SingletonLazy singletonLazy;
     public static SingletonLazy getInstance(){
         if(singletonLazy == null){
-            return new SingletonLazy();
+            synchronized (SingletonLazy.class) {
+                return new SingletonLazy();
+            }
         }else{
             return singletonLazy;
         }
